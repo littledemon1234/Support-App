@@ -5,9 +5,9 @@ import Features from "./Features";
 import Premium from "./Premium";
 import Instant from "./Instant";
 import Quality from "./Quality";
-import Pricing from "./Pricing";
+import Pricing from "./Pricing.jsx";
 import TestimonialCard from "./TestimonialCard";
-import Footer from "./Footer";
+import Footer from "./Footer.jsx";
 export default function Home() {
   return (
    <div >
