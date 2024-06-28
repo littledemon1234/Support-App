@@ -50,7 +50,7 @@ const pricing = () => {
                         </div>
 
                         <div className='bg-white text-[#E0E2E4] shadow-xl border-[2px] border-transparent  rounded-tl-2xl rounded-br-2xl  h-[700px] p-0 md:p-[50px] md:w-[480px] md:h-[600px]'>
-                            <div className='flex flex-col gap-8'>
+                            <div className='flex flex-col gap-8 pl-[21px] md:p-0 pt-[10px] md:pt-0'>
                                 <div>
                                     <h1 className='text-black font-bold text-[20px]'>Premium Pak</h1>
                                     <p className='text-[#FFC059] font-bold text-[20px]'>$49.99/mo</p>
