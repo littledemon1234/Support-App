@@ -5,7 +5,9 @@ import Features from "./Features";
 import Premium from "./Premium";
 import Instant from "./Instant";
 import Quality from "./Quality";
-
+import Pricing from "./Pricing";
+import TestimonialCard from "./TestimonialCard";
+import Footer from "./Footer";
 export default function Home() {
   return (
    <div >
@@ -15,6 +17,13 @@ export default function Home() {
     <Premium/>
     <Instant/>
     <Quality/>
+    <div className='flex flex-col gap-32'>
+        <Pricing />
+        <div>
+          <TestimonialCard />
+        </div>
+        <Footer />
+      </div>
    </div>
   );
 }

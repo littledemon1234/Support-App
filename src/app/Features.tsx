@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Features() {
     return (
-        <div className=" flex flex-row gap-5 pl-40 pr-44 pt-24">
+        <div className=" flex md:flex-row gap-5 flex-col md:pl-40 md:pr-44 md:pt-24">
             <div className=" drop-shadow-2xl">
             <div className=" flex gap-2 p-8 ">
                 {/* image div */}
