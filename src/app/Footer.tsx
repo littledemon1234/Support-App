@@ -49,7 +49,7 @@ const footer = () => {
                     <Link href="#advertise" className="hover:underline">Advertise</Link>
                     <Link href="#supports" className="hover:underline">Supports</Link>
                     <Link href="#marketing" className="hover:underline">Marketing</Link>
-                    <div className='mt-2 ml-0' >
+                    <div className=' ml-0' >
                         <Link href="#faq" className="hover:underline">FAQ</Link>
                     </div>
                 </div>
