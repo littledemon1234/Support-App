@@ -10,7 +10,7 @@ import TestimonialCard from "./TestimonialCard";
 import Footer from "./Footer";
 export default function Home() {
   return (
-    <div >
+    <div  >
       <Header />
       <Bottom />
       <Features />
