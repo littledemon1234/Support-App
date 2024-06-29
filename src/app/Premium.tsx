@@ -3,18 +3,18 @@ import Image from "next/image";
 
 export default function Premium() {
   return (
-    <div className="flex gap-3 md:flex-1 flex-col  md:flex-row ">
+    <div className="flex gap-3  flex-col  md:flex-row ">
       <div className="md:pt-16 ">
-        <Image src={"/img.png"} alt="logo" width={900} height={800} />
+        <Image className="md:w-[600px] md:h-[500px]" src={"/img.png"} alt="logo" width={900} height={800} />
       </div>
 
       {/* text div main*/}
-      <div className="flex flex-col md:w-[800px] md:pr-44  pt-16">
+      <div className="flex flex-col md:w-[800px] md:pr-5  pt-16">
 
 
-        <div className="md:m-0 ml-[21px]" >
+        <div className="md:m-0 ml-[21px] mr-[21px] md:mr-0" >
 
-          <h1 className="text-3xl font-bold leading-relaxed tracking-tight">Meet our perimium features  that will make you WoW </h1>
+          <h1 className="text-3xl font-bold leading-relaxed tracking-tight">Meet our preimium features  that will make you WoW </h1>
 
 
 

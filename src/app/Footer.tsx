@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const footer = () => {
@@ -12,15 +13,15 @@ const footer = () => {
                     By subscribing with your mail, you will accept our privacy policy
                 </p>
                 <form className="mt-8 flex flex-row justify-center">
-                    <div className='flex flex-row gap-3'>
+                    <div className='flex md:flex-row flex-col gap-3'>
                         <input
                             type="email"
-                            className="bg-[#353448] w-full max-w-xs p-2 border outline-none rounded-l-md focus:outline-none border-transparent focus:ring-2 focus:ring-blue-500 focus:border-transparent "
+                            className="bg-[#353448] p-2 border outline-none md:rounded-l-md focus:outline-none border-transparent focus:ring-2 focus:ring-blue-500 focus:border-transparent "
                             placeholder="Enter your email"
                         />
                         <button
                             type="submit"
-                            className="bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-semibold p-2 rounded-r-md w-[180px]"
+                            className="bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-semibold p-2 rounded-xl md:rounded-l-md"
                         >
                             Subscribe us
                         </button>
@@ -43,12 +44,14 @@ const footer = () => {
                 </div>
 
                 {/* Footer Links */}
-                <div className="flex flex-wrap justify-center space-x-4 text-gray-400">
-                    <a href="#home" className="hover:underline">Home</a>
-                    <a href="#advertise" className="hover:underline">Advertise</a>
-                    <a href="#supports" className="hover:underline">Supports</a>
-                    <a href="#marketing" className="hover:underline">Marketing</a>
-                    <a href="#faq" className="hover:underline">FAQ</a>
+                <div className="flex flex-wrap md:flex-nowrap justify-center space-x-4 text-gray-400">
+                    <Link href="#home" className="hover:underline">Home</Link>
+                    <Link href="#advertise" className="hover:underline">Advertise</Link>
+                    <Link href="#supports" className="hover:underline">Supports</Link>
+                    <Link href="#marketing" className="hover:underline">Marketing</Link>
+                    <div className='mt-2 ml-0' >
+                        <Link href="#faq" className="hover:underline">FAQ</Link>
+                    </div>
                 </div>
             </div>
         </footer>

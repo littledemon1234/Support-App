@@ -1,4 +1,3 @@
-// src/components/TestimonialCard.js
 import React from 'react';
 import Girl from './assets/img.png'
 import Girl2 from './assets/img (1).png'
@@ -9,91 +8,75 @@ import Boy3 from './assets/img (5).png'
 import Image from 'next/image'
 const TestimonialCard = () => {
   return (
-    <><div className='pl-[21px] md:pl-0 md:pr-0 pr-[21px]'>
-<div className='flex md:flex-row flex-col md:gap-[60px] gap-[30px]'>
-        <div className='flex md:flex-row flex-col justify-center items-center '>
+    <>
+      <div className='flex flex-col md:gap-[60px]   gap-[20px]'>
+        <div className='flex flex-col justify-center items-center '>
           <h1 className='text-[#0F2137] text-[30px] font-bold'>What client say about us</h1>
-          <p className='text-[#858B91] text-[18px] '>Customer testimonial</p>
+          <p className='text-[#858B91] text-[18px]'>Customer testimonial</p>
         </div>
-        <div className='flex  md:flex-row flex-col justify-center gap-3'>
-          <div className='flex flex-col md:w-[380px] bg-white '>
-            <div className='flex flex-col gap-[20px] p-[23px]  rounded-3xl border-black shadow-2xl md:p-5'>
-              <p className='md:w-[330px] ' >I would like to take this oppertunity to thank SA Places for the great service rendered to us and in particular Estelle. You got me the best place ever in just a few moments after I spoke to you.</p>
-              <div className='flex flex-row gap-2'>
-                <Image src={Girl} alt="" />
-                <div>
-                  <h5 className='font-bold'>Minnie Horn</h5>
-                  <h4 className='text-[#4F96FF]'>@hello.mimmie</h4>
+        <div className='flex flex-col gap-4 xl:w-[1200px] md:ml-[21px] ml-[21px] md:mr-[21px]'>
+
+          <div>
+            <div className='flex flex-col md:flex md:flex-row xl:justify-center lg:justify-center gap-3'>
+
+              <div className='flex flex-col md:w-[380px] bg-white '>
+                <div className='flex flex-col gap-[20px] rounded-3xl border-black shadow-2xl p-5'>
+                  <p className='md:w-[330px]'>I would like to take this oppertunity to thank SA Places for the great service rendered to us and in particular Estelle. You got me the best place ever in just a few moments after I spoke to you.</p>
+                  <div className='flex flex-row gap-2'>
+                    <Image src={Girl} alt="" />
+                    <div>
+                      <h5 className='font-bold'>Minnie Horn</h5>
+                      <h4 className='text-[#4F96FF]'>@hello.mimmie</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='flex flex-col md:w-[380px] md:pr-[21px] bg-white gap-3'>
+                <div className='flex flex-col gap-[20px] rounded-3xl border-black shadow-xl p-5 '>
+                  <p className='md:w-[330px]'>I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you</p>
+                  <div className='flex flex-row gap-2'>
+                    <Image src={Girl2} alt="" />
+                    <div>
+                      <h5 className='font-bold'>Veona Watson</h5>
+                      <h4 className='text-[#4F96FF]'>@hi.veona</h4>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
-          <div className='flex flex-col md:w-[380px] bg-white gap-3'>
-            <div className='flex flex-col gap-[20px] p-[23px] rounded-3xl border-black shadow-xl md:p-5'>
-              <p className='md:w-[330px]'>I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you</p>
-              <div className='flex flex-row gap-2'>
-                <Image src={Girl2} alt="" />
-                <div>
-                  <h5 className='font-bold'>Veona Watson</h5>
-                  <h4 className='text-[#4F96FF]'>@hi.veona</h4>
+          <div>
+            <div className='flex flex-col md:flex md:flex-row xl:justify-center lg:justify-center gap-3'>
+              <div className='flex flex-col md:w-[380px]  bg-white '>
+                <div className='flex flex-col gap-[20px] rounded-3xl border-black shadow-xl p-5'>
+                  <p className='md:w-[330px]'>Many thanks for you kind and efficient service. I have already and will definitely continue to recommend your services to others in the future.</p>
+                  <div className='flex flex-row  gap-2'>
+                    <Image src={Girl3} alt="" />
+                    <div>
+                      <h5 className='font-bold'>Merryn Manley</h5>
+                      <h4 className='text-[#4F96FF]'>@merryn.manley</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='flex flex-col md:w-[380px] md:pr-[21px] bg-white '>
+                <div className='flex flex-col gap-[20px] rounded-3xl border-black shadow-xl p-5'>
+                  <p className='md:w-[330px]'>I have seldom experienced such an efficient help and support like from you! Thank you so much. We will do all the bookings during the next few days and I will revert to you with the end result</p>
+                  <div className='flex flex-row gap-2'>
+                    <Image src={Boy2} alt="" />
+                    <div>
+                      <h5 className='font-bold'>Paseka Nku</h5>
+                      <h4 className='text-[#4F96FF]'>@hey.nku</h4>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className='flex flex-col md:w-[380px] bg-white '>
-            <div className='flex flex-col gap-[20px] p-[23px] rounded-3xl border-black shadow-xl md:p-5'>
-              <p className='md:w-[330px]'>Thank you for all your help. Your service was excellent and very FAST.</p>
-              <div className='flex flex-row gap-2'>
-                <Image src={Boy} alt="" />
-                <div>
-                  <h5 className='font-bold'>Cherice Justin</h5>
-                  <h4 className='text-[#4F96FF]'>@cherice.me</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='flex  md:flex-row flex-col justify-center gap-3'>
-          <div className='flex flex-col md:w-[380px] bg-white '>
-            <div className='flex flex-col gap-[20px] p-[23px] rounded-3xl border-black shadow-xl md:p-5'>
-              <p className='md:w-[330px]'>Many thanks for you kind and efficient service. I have already and will definitely continue to recommend your services to others in the future.</p>
-              <div className='flex flex-row gap-2'>
-                <Image src={Girl3} alt="" />
-                <div>
-                  <h5 className='font-bold'>Merryn Manley</h5>
-                  <h4 className='text-[#4F96FF]'>@merryn.manley</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='flex flex-col md:w-[380px] bg-white '>
-            <div className='flex flex-col gap-[20px] p-[23px] rounded-3xl border-black shadow-xl md:p-5'>
-              <p className='md:w-[330px]'>I have seldom experienced such an efficient help and support like from you! Thank you so much. We will do all the bookings during the next few days and I will revert to you with the end result</p>
-              <div className='flex flex-row gap-2'>
-                <Image src={Boy2} alt="" />
-                <div>
-                  <h5 className='font-bold'>Paseka Nku</h5>
-                  <h4 className='text-[#4F96FF]'>@hey.nku</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='flex flex-col md:w-[380px] bg-white '>
-            <div className='flex flex-col gap-[20px] p-[23px] rounded-3xl border-black shadow-xl md:p-5'>
-              <p className='md:w-[330px]'>For our recent trip to S.A. I booked several accommodation thru SA Places. I just wanted to tell you that everything worked out perfectly with all the bookings and also your booking was very quick and professional. I hope I have the opportunity to re-visit South Africa soon, I will then make my bookings with your company again. I will also recommend</p>
-              <div className='flex flex-row gap-2'>
-                <Image src={Boy3} alt="" />
-                <div>
-                  <h5 className='font-bold'>Thais Carballal</h5>
-                  <h4 className='text-[#4F96FF]'>@myself.thais</h4>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
-    </div>
-      
     </>
   );
 };

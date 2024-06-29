@@ -10,20 +10,18 @@ import TestimonialCard from "./TestimonialCard";
 import Footer from "./Footer";
 export default function Home() {
   return (
-   <div >
-    <Header/>
-    <Bottom />
-    <Features/>
-    <Premium/>
-    <Instant/>
-    <Quality/>
-    <div className='flex flex-col gap-32'>
+    <div >
+      <Header />
+      <Bottom />
+      <Features />
+      <Premium />
+      <Instant />
+      <Quality />
+      <div className='flex flex-col gap-20'>
         <Pricing />
-        <div>
-          <TestimonialCard />
-        </div>
+        <TestimonialCard />
         <Footer />
       </div>
-   </div>
+    </div>
   );
 }
