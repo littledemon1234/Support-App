@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function Instant() {
   return (
-    <div className="flex md:flex-row flex-col md:mt-7  gap-7 justify-center ">
+    <div className="flex md:flex-row flex-col md:mt-10 mt-6 ml-[21px] mr-[15px] md:ml-0 md:mr-0  gap-7 justify-center ">
 
       <div className=" flex flex-col md:w-[500px] md:ml-[21px]  md:mr-[21px] ">
 
@@ -21,21 +21,21 @@ export default function Instant() {
           <div className="flex flex-col gap-3">
 
             <div className="flex items-center gap-3">
-              <Image className="w-[20px] md:w-[15px]" src={"/shape.png"} alt="logo" width={15} height={15} />
+              <Image className="w-[15px]" src={"/shape.png"} alt="logo" width={15} height={15} />
               <p>
                 Medical and vesion
               </p>
             </div>
 
             <div className="flex items-center gap-3">
-              <Image className="w-[20px] md:w-[15px]" src={"/shape.png"} alt="logo" width={15} height={15} />
+              <Image className="w-[15px]" src={"/shape.png"} alt="logo" width={15} height={15} />
               <p>
                 Life insurence
               </p>
             </div>
 
             <div className="flex items-center gap-3">
-              <Image className="w-[20px] md:w-[15px]" src={"/shape.png"} alt="logo" width={15} height={15} />
+              <Image className="w-[15px]" src={"/shape.png"} alt="logo" width={15} height={15} />
               <p>
                 400(k) Savings
               </p>
@@ -46,19 +46,19 @@ export default function Instant() {
           <div className="flex flex-col gap-3">
 
             <div className="flex items-center gap-3">
-              <Image className="w-[20px] md:w-[15px]" src={"/shape.png"} alt="logo" width={15} height={15} />
+              <Image className="w-[15px]" src={"/shape.png"} alt="logo" width={15} height={15} />
               <p>HSA and FSA</p>
             </div>
 
             <div className="flex items-center gap-3">
-              <Image className="w-[20px] md:w-[15px]" src={"/shape.png"} alt="logo" width={15} height={15} />
+              <Image className="w-[15px]" src={"/shape.png"} alt="logo" width={15} height={15} />
               <p>
                 Computer benefits
               </p>
             </div>
 
             <div className="flex items-center gap-3">
-              <Image className="w-[20px] md:w-[15px]" src={"/shape.png"} alt="logo" width={15} height={15} />
+              <Image className="w-[15px]" src={"/shape.png"} alt="logo" width={15} height={15} />
               <p>
                 529 collage savings
               </p>
