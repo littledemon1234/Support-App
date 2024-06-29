@@ -40,7 +40,7 @@ const footer = () => {
                         </svg>
                         <span className="text-lg font-semibold">StartupLanding</span>
                     </div>
-                    <p>© 2024 YourName, Inc</p>
+                    <p>© 2024 StartupLanding, Inc</p>
                 </div>
 
                 {/* Footer Links */}
