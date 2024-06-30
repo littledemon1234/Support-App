@@ -11,8 +11,8 @@ const TestimonialCard = () => {
     <>
       <div className='flex flex-col md:gap-[60px] md:items-center  gap-[20px]'>
         <div className='flex flex-col justify-center items-center '>
-          <h1 className='text-[#0F2137] text-[30px] text-center font-bold pl-4 pr-6 md:pl-0 md:pr-0'>What client say about us</h1>
-          <p className='text-[#858B91] text-[18px] underline'>Customer testimonial</p>
+          <h1 className='text-[#0F2137] md:text-[30px] text-[25px] text-center font-bold pl-4 pr-6 md:pl-0 md:pr-0'>What client say about us</h1>
+          <p className='text-[#858B91] md:text-[18px] text-[14px] underline'>Customer testimonial</p>
         </div>
         <div className='flex flex-col gap-4 xl:w-[1200px]   md:ml-[21px] ml-[21px]  mr-[21px] md:mr-[21px]'>
 

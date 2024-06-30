@@ -18,7 +18,7 @@ const Pricing = () => {
         <>
             <div className='flex flex-col gap-5 pt-12 bg-[#F9FAFC] '>
                 <div className='flex flex-col items-center'>
-                    <h2 className='font-bold text-2xl pl-[5px] pr-[5px] tarcking-tight '>What deal suit you perfect</h2>
+                    <h2 className='font-bold md:text-2xl text-xl pl-[5px] pr-[5px] tarcking-tight '>What deal suit you perfect</h2>
                     <h4 className='text-[#858B91]'>Meet our pricing plan</h4>
                 </div>
                 <div className='flex flex-col gap-[50px]'>
@@ -63,14 +63,14 @@ const Pricing = () => {
                                     <Image className='w-[20px] h-[20px] ' src={Cross} alt="" />
                                     <p className='text-[#343D48]'>Unlimited download of courses on the mobile app contents</p>
                                 </div>
-                                <Link className='font-semibold flex bg-[#ffe6c0] text-[#FFC059] w-[160px] h-[45px] flex-row justify-center items-center text-[18px] rounded-lg' href='/'>Start Free Trial</Link>
+                                <Link className='font-semibold flex bg-[#ffe6c0] text-[#FFC059] w-[160px] h-[45px] flex-row justify-center items-center md:text-[18px] text-[14px] rounded-lg' href='/'>Start Free Trial</Link>
                             </div>
                         </div>
 
                         <div className='bg-white md:mr-[21px] text-[#E0E2E4] shadow-xl border-[2px] border-transparent  rounded-tl-2xl rounded-br-2xl  ml-[15px] mr-[15px] h-[700px] p-0 md:p-[28px] md:w-[480px] md:h-[600px]'>
                             <div className='flex flex-col gap-8 pl-[21px] md:p-0 pt-[10px] md:pt-0'>
                                 <div>
-                                    <h1 className='text-black font-bold text-[20px] pt-6 md:pt-0'>Premium Pak</h1>
+                                    <h1 className='text-black font-bold md:text-[20px] text-[15px] pt-6 md:pt-0'>Premium Pack</h1>
                                     <p className='text-[#FFC059] font-bold text-[20px]'>$49.99/mo</p>
                                 </div>
                                 <p className='text-[#343D48] '>For the Pro users who work with modern data stack</p>
@@ -93,7 +93,7 @@ const Pricing = () => {
                                     <Image className='w-[20px] h-[20px] ' src={Tick} alt="" />
                                     <p className='text-black'>Unlimited download of courses on the mobile app contents</p>
                                 </div>
-                                <Link className='font-semibold flex bg-[#FFC059] text-white w-[160px] h-[45px] flex-row justify-center items-center text-[18px] rounded-xl' href='/'>Start Free Trial</Link>
+                                <Link className='font-semibold flex bg-[#FFC059] text-white w-[160px] h-[45px] flex-row justify-center items-center md:text-[18px] text-[14px] rounded-xl' href='/'>Start Free Trial</Link>
                             </div>
                         </div>
                     </div>

@@ -10,7 +10,7 @@ export default function Header() {
           <div className="flex justify-center items-center gap-3 " >
             <Image src={"/group.png"} alt="logo" width={20} height={20} />
 
-            <h1 className=" tracking-tight font-bold ">StartupLand</h1>
+            <h1 className=" tracking-tight font-bold md:text-base text-sm">StartupLand</h1>
 
           </div>
           <div>

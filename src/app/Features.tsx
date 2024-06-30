@@ -13,7 +13,7 @@ export default function Features() {
                     </div>
                     <div>
 
-                        <h1 className="text-xl leading-normal font-bold ">Do you need help support</h1>
+                        <h1 className="text-lg  md:text-xl leading-normal font-bold ">Do you need help support</h1>
                         <p className="leading-7">Get your website app test delivered at let collect samples from  the victory of the update managment services.</p>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ export default function Features() {
                 </div>
 
                 <div>
-                    <h1 className="text-xl leading-normal font-bold ">Do you need help support</h1>
+                    <h1 className="md:text-xl text-lg leading-normal font-bold ">Do you need help support</h1>
                     <p className="leading-7">Get your website app test delivered at let collect samples from the victory of the update managment services.</p>
                 </div>
             </div>

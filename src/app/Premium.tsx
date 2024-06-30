@@ -14,11 +14,11 @@ export default function Premium() {
 
         <div className="md:m-0 ml-[21px] mr-[21px] md:mr-0" >
 
-          <h1 className="text-3xl font-bold leading-relaxed tracking-tight">Meet our preimium features  that will make you WoW </h1>
+          <h1 className="md:text-3xl text-xl font-bold leading-relaxed tracking-tight">Meet our preimium features  that will make you WoW </h1>
 
 
 
-          <p className="pt-5 leading-9">Build an incredible workplace and grow your business with Gusto&apos;s all in one platform with amazing contents.</p>
+          <p className="pt-5 leading-9 md:text-xl text-sm">Build an incredible workplace and grow your business with Gusto&apos;s all in one platform with amazing contents.</p>
         </div>
 
         {/* last three main div */}

@@ -14,8 +14,8 @@ export default function Quality() {
 
           <div className="md:pl-20 md:w-[500px]">
             <div >
-              <h1 className="text-3xl font-bold leading-relaxed tracking-tight text-white">Introduce quality feature that boost your website rank & performance</h1>
-              <p className="pt-5 leading-8 text-white">Build an incredible workplace that grow your business with Gusto&apos;s all in one platform with amazing contents. Get your test delivered at home collect sample from the victory of supplies design  </p>
+              <h1 className="md:text-3xl text-xl font-bold leading-relaxed tracking-tight text-white">Introduce quality feature that boost your website rank & performance</h1>
+              <p className="pt-5 leading-8 text-white md:text-lg text-sm">Build an incredible workplace that grow your business with Gusto&apos;s all in one platform with amazing contents. Get your test delivered at home collect sample from the victory of supplies design  </p>
             </div>
             <div className="mt-10  ">
               <Link className="bg-[#FFC059]  text-white rounded-md p-3" href={"/More details"} > More details</Link>

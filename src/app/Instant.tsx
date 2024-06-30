@@ -10,8 +10,8 @@ export default function Instant() {
       <div className=" flex flex-col md:w-[500px] md:ml-[21px]  md:mr-[21px] ">
 
         <div >
-          <h1 className="text-3xl font-bold leading-relaxed tracking-tight">Build in one app to make instant reply with in lowest minutes</h1>
-          <p className="pt-5 leading-9">get your test delivererd at home collect sample from the victory of management that supplies best design system with multiple features</p>
+          <h1 className="md:text-3xl text-xl font-bold leading-relaxed tracking-tight">Build in one app to make instant reply with in lowest minutes</h1>
+          <p className="pt-5 leading-9 md:text-xl text-base">get your test delivererd at home collect sample from the victory of management that supplies best design system with multiple features</p>
         </div>
 
 
