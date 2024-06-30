@@ -1,93 +1,64 @@
-import React from 'react'
-import Slide from './assets/slide.png'
-import Tick from './assets/tick.png'
-import Image from 'next/image'
-import Cross from './assets/cross.png'
-import Link from 'next/link'
-const pricing = () => {
+import Link from 'next/link';
+import React from 'react';
+
+const footer = () => {
     return (
-        <>
-            <div className='flex flex-col gap-5 pt-12 bg-[#F9FAFC] '>
-                <div className='flex flex-col items-center'>
-                    <h2 className='font-bold text-2xl pl-[5px] pr-[5px] tarcking-tight '>What deal suit you perfect</h2>
-                    <h4 className='text-[#858B91]'>Meet our pricing plan</h4>
-                </div>
-                <div className='flex flex-col gap-[50px]'>
-                    <div className='flex flex-row justify-center'>
-                        <p>Monthly Plan</p>
-                       
-                      
-                        <p>Annual plan</p>
-                    </div>
-                    <div className='flex flex-col md:pl-[21px] justify-center gap-[17px] md:flex md:flex-row '>
-                        <div className='bg-white ml-[15px] md:ml-0 mr-[15px] md:mr-0 items-center text-[#E0E2E4] shadow-xl border-[2px] border-transparent  md:rounded-tl-2xl md:rounded-br-2xl rounded-xl  h-[700px] p-0 md:p-[28px] md:w-[480px] md:h-[600px]'>
-                            <div className='flex flex-col gap-8 md:ml-0 md:mt-0 mt-[10px] ml-[21px]'>
-                                <div>
-                                    <h1 className='text-black font-bold text-[20px] md:pt-0 pt-6'>Startup Pack</h1>
-                                    <p className='text-[#FFC059] font-bold text-[20px]'>$25.99/mo</p>
-                                </div>
-                                <p className='text-[#343D48]'>For the startup team who work with new come data stack</p>
-
-                                <div className='flex flex-col  gap-6'>
-                                    <div className='flex flex-row gap-3 items-center'>
-                                        <Image className='w-[20px] h-[20px] ' src={Tick} alt="" />
-                                        <p className='text-black'>Ultimate access to all course, exercises and assessments</p>
-                                    </div>
-                                </div>
-                                <div className='flex flex-row gap-3 items-center'>
-                                    <Image className='w-[20px] h-[20px] ' src={Tick} alt="" />
-                                    <p className='text-black'>Free acess for all kind of exercise corrections with downloads.</p>
-                                </div>
-                                <div className='flex flex-row gap-3 items-center'>
-                                    <Image className='w-[20px] h-[20px] ' src={Tick} alt="" />
-                                    <p className='text-black'>Total assessment corrections with free download access system</p>
-                                </div>
-                                <div className='flex flex-row gap-3 items-center'>
-                                    <Image className='w-[20px] h-[20px] ' src={Cross} alt="" />
-                                    <p className='text-[#343D48]'>Unlimited download of courses on the mobile app contents</p>
-                                </div>
-                                <Link className='font-semibold flex bg-[#ffe6c0] text-[#FFC059] w-[160px] h-[45px] flex-row justify-center items-center text-[18px] rounded-lg' href='/'>Start Free Trial</Link>
-                            </div>
+        <footer className="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+            <div className="max-w-5xl mx-auto text-center">
+                {/* Subscribe Section */}
+                <h2 className="text-2xl font-semibold">
+                    Subscribe to get notified about update
+                </h2>
+                <p className="mt-4 text-gray-400 text-[14px]">
+                    By subscribing with your mail, you will accept our privacy policy
+                </p>
+                <form className="mt-8 flex flex-row justify-center">
+                    <div className='flex md:flex-row flex-col gap-3'>
+                        <div className=''>
+                        <input
+                            type="email"
+                            className="bg-[#353448] ml-[10px] mr-[10px] md:mr-0 md:ml-0 p-2  w-[290px] text-start  rounded-none border outline-none md:rounded-l-md focus:outline-none border-transparent focus:ring-2 focus:ring-blue-500 focus:border-transparent "
+                            placeholder="Enter your email"
+                        />
                         </div>
-
-                        <div className='bg-white md:mr-[21px] text-[#E0E2E4] shadow-xl border-[2px] border-transparent  md:rounded-tl-2xl md:rounded-br-2xl rounded-xl  ml-[15px] mr-[15px] h-[700px] p-0 md:p-[28px] md:w-[480px] md:h-[600px]'>
-                            <div className='flex flex-col gap-8 pl-[21px] md:p-0 pt-[10px] md:pt-0'>
-                                <div>
-                                    <h1 className='text-black font-bold text-[20px] pt-6 md:pt-0'>Premium Pak</h1>
-                                    <p className='text-[#FFC059] font-bold text-[20px]'>$49.99/mo</p>
-                                </div>
-                                <p className='text-[#343D48] '>For the Pro users who work with modern data stack</p>
-
-                                <div className='flex flex-col  gap-6'>
-                                    <div className='flex flex-row gap-3 items-center'>
-                                        <Image className='w-[20px] h-[20px] ' src={Tick} alt="" />
-                                        <p className='text-black'>Ultimate access to all course, exercises and assessments</p>
-                                    </div>
-                                </div>
-                                <div className='flex flex-row gap-3 items-center'>
-                                    <Image className='w-[20px] h-[20px] ' src={Tick} alt="" />
-                                    <p className='text-black'>Free acess for all kind of exercise corrections with downloads.</p>
-                                </div>
-                                <div className='flex flex-row gap-3 items-center'>
-                                    <Image className='w-[20px] h-[20px] ' src={Tick} alt="" />
-                                    <p className='text-black'>Total assessment corrections with free download access system</p>
-                                </div>
-                                <div className='flex flex-row gap-3 items-center'>
-                                    <Image className='w-[20px] h-[20px] ' src={Tick} alt="" />
-                                    <p className='text-black'>Unlimited download of courses on the mobile app contents</p>
-                                </div>
-                                <Link className='font-semibold flex bg-[#FFC059] text-white w-[160px] h-[45px] flex-row justify-center items-center text-[18px] rounded-xl' href='/'>Start Free Trial</Link>
-                            </div>
+                        <div>
+                        <button
+                            type="submit"
+                            className="bg-yellow-500   hover:bg-yellow-600 text-gray-800 font-semibold p-2 rounded-xl md:rounded-l-md"
+                        >
+                            Subscribe us
+                        </button>
                         </div>
                     </div>
-                </div>
-
+                </form>
             </div>
 
-        </>
+            {/* Footer Links and Copyright */}
+            <div className="mt-12 flex flex-col items-center text-center text-sm space-y-6">
+                {/* Footer Logo and Copyright */}
+                <div className="flex flex-col items-center space-y-2 text-gray-500">
+                    <div className="flex items-center space-x-2">
+                        {/* Logo */}
+                        <svg className="w-5 h-5 text-cyan-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 3a7 7 0 100 14 7 7 0 000-14zm0 12.5A5.5 5.5 0 1115.5 10 5.5 5.5 0 0110 15.5zm.25-9a.75.75 0 00-1.5 0v2.25H6.5a.75.75 0 000 1.5h2.25V12.5a.75.75 0 001.5 0V9.75H13a.75.75 0 000-1.5h-2.75z" />
+                        </svg>
+                        <span className="text-lg font-semibold">StartupLanding</span>
+                    </div>
+                    <p>© 2024 StartupLanding, Inc</p>
+                </div>
 
-
+                {/* Footer Links */}
+                <div className="flex flex-wrap md:flex-nowrap justify-center space-x-4 text-gray-400">
+                    <Link href="#home" className="hover:underline">Home</Link>
+                    <Link href="#advertise" className="hover:underline">Advertise</Link>
+                    <Link href="#supports" className="hover:underline">Supports</Link>
+                    <Link href="#marketing" className="hover:underline">Marketing</Link>
+                    <div className=' ml-0' >
+                        <Link href="#faq" className="hover:underline">FAQ</Link>
+                    </div>
+                </div>
+            </div>
+        </footer>
     )
 }
-
-export default pricing
+export default footer;
