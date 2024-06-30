@@ -14,17 +14,21 @@ const footer = () => {
                 </p>
                 <form className="mt-8 flex flex-row justify-center">
                     <div className='flex md:flex-row flex-col gap-3'>
+                        <div className=''>
                         <input
                             type="email"
-                            className="bg-[#353448] p-2 border outline-none md:rounded-l-md focus:outline-none border-transparent focus:ring-2 focus:ring-blue-500 focus:border-transparent "
+                            className="bg-[#353448] ml-[10px] mr-[10px] md:mr-0 md:ml-0 p-2  w-[290px] text-start  rounded-none border outline-none md:rounded-l-md focus:outline-none border-transparent focus:ring-2 focus:ring-blue-500 focus:border-transparent "
                             placeholder="Enter your email"
                         />
+                        </div>
+                        <div>
                         <button
                             type="submit"
-                            className="bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-semibold p-2 rounded-xl md:rounded-l-md"
+                            className="bg-yellow-500   hover:bg-yellow-600 text-gray-800 font-semibold p-2 rounded-xl md:rounded-l-md"
                         >
                             Subscribe us
                         </button>
+                        </div>
                     </div>
                 </form>
             </div>
