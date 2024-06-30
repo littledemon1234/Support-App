@@ -15,16 +15,16 @@ export default function Bottom() {
               <button className="bg-[#FFC059] text-white rounded-md p-2">Get started</button>
             </div>
           </div>
-        </div>
+        </div >
 
 
         <div><Image className="mt-11 md:mt-0" src={"/illustration.png"} alt="logo" width={550} height={550} />
         </div>
-      </div>
+      </div >
 
 
 
-    </div>
+    </div >
 
   )
 }
