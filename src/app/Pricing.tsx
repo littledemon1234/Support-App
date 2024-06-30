@@ -1,10 +1,19 @@
+'use client';
+
 import React from 'react'
 import Slide from './assets/slide.png'
 import Tick from './assets/tick.png'
 import Image from 'next/image'
 import Cross from './assets/cross.png'
 import Link from 'next/link'
-const pricing = () => {
+import { useState } from 'react';
+
+const Pricing = () => {
+    const [isChecked, setIsChecked] = useState(false);
+
+    const handleToggle = () => {
+        setIsChecked(!isChecked);
+    };
     return (
         <>
             <div className='flex flex-col gap-5 pt-12 bg-[#F9FAFC] '>
@@ -13,10 +22,19 @@ const pricing = () => {
                     <h4 className='text-[#858B91]'>Meet our pricing plan</h4>
                 </div>
                 <div className='flex flex-col gap-[50px]'>
-                    <div className='flex flex-row justify-center'>
-                        <p>Monthly Plan</p>
-                        <Image className='w-[30px] h-[30px]' src={Slide} alt="" />
-                        <p>Annual plan</p>
+                    <div className="flex justify-center items-center space-x-2 cursor-pointer">
+                        <span className="text-black-600">Monthly Plan</span>
+                        <div
+                            className={`relative w-10 flex flex-row items-center h-6 bg-[#FFC059] rounded-full ${isChecked ? 'bg-[#FFC059]' : 'bg-[#FFC059]'
+                                }`}
+                            onClick={handleToggle}
+                        >
+                            <span
+                                className={`absolute left-0 w-5 h-5 bg-white rounded-full transform transition-transform ${isChecked ? 'translate-x-full' : 'translate-x-0'
+                                    }`}
+                            ></span>
+                        </div>
+                        <span className="text-black-600">Annual Plan</span>
                     </div>
                     <div className='flex flex-col md:pl-[21px] justify-center gap-[17px] md:flex md:flex-row '>
                         <div className='bg-white ml-[15px] md:ml-0 mr-[15px] md:mr-0 items-center text-[#E0E2E4] shadow-xl border-[2px] border-transparent  rounded-tl-2xl rounded-br-2xl  h-[700px] p-0 md:p-[28px] md:w-[480px] md:h-[600px]'>
@@ -88,5 +106,4 @@ const pricing = () => {
 
     )
 }
-
-export default pricing
+export default Pricing;
