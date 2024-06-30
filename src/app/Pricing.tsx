@@ -15,11 +15,12 @@ const pricing = () => {
                 <div className='flex flex-col gap-[50px]'>
                     <div className='flex flex-row justify-center'>
                         <p>Monthly Plan</p>
-                        <Image className='w-[30px] h-[30px]' src={Slide} alt="" />
+                       
+                      
                         <p>Annual plan</p>
                     </div>
                     <div className='flex flex-col md:pl-[21px] justify-center gap-[17px] md:flex md:flex-row '>
-                        <div className='bg-white ml-[15px] md:ml-0 mr-[15px] md:mr-0 items-center text-[#E0E2E4] shadow-xl border-[2px] border-transparent  rounded-tl-2xl rounded-br-2xl  h-[700px] p-0 md:p-[28px] md:w-[480px] md:h-[600px]'>
+                        <div className='bg-white ml-[15px] md:ml-0 mr-[15px] md:mr-0 items-center text-[#E0E2E4] shadow-xl border-[2px] border-transparent  md:rounded-tl-2xl md:rounded-br-2xl rounded-xl  h-[700px] p-0 md:p-[28px] md:w-[480px] md:h-[600px]'>
                             <div className='flex flex-col gap-8 md:ml-0 md:mt-0 mt-[10px] ml-[21px]'>
                                 <div>
                                     <h1 className='text-black font-bold text-[20px] md:pt-0 pt-6'>Startup Pack</h1>
@@ -49,7 +50,7 @@ const pricing = () => {
                             </div>
                         </div>
 
-                        <div className='bg-white md:mr-[21px] text-[#E0E2E4] shadow-xl border-[2px] border-transparent  rounded-tl-2xl rounded-br-2xl  ml-[15px] mr-[15px] h-[700px] p-0 md:p-[28px] md:w-[480px] md:h-[600px]'>
+                        <div className='bg-white md:mr-[21px] text-[#E0E2E4] shadow-xl border-[2px] border-transparent  md:rounded-tl-2xl md:rounded-br-2xl rounded-xl  ml-[15px] mr-[15px] h-[700px] p-0 md:p-[28px] md:w-[480px] md:h-[600px]'>
                             <div className='flex flex-col gap-8 pl-[21px] md:p-0 pt-[10px] md:pt-0'>
                                 <div>
                                     <h1 className='text-black font-bold text-[20px] pt-6 md:pt-0'>Premium Pak</h1>
