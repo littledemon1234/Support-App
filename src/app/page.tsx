@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Header from "./Header";
+import Navbar from "./Navbar";
 import Bottom from "./Bottom";
 import Features from "./Features";
 import Premium from "./Premium";
@@ -11,7 +11,7 @@ import Footer from "./Footer";
 export default function Home() {
   return (
     <div  >
-      <Header />
+      <Navbar />
       <Bottom />
       <Features />
       <Premium />
