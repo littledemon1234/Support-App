@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "./Navbar";
 import Bottom from "./Bottom";
 import Features from "./Features";
@@ -8,9 +7,10 @@ import Quality from "./Quality";
 import Pricing from "./Pricing";
 import TestimonialCard from "./TestimonialCard";
 import Footer from "./Footer";
+
 export default function Home() {
   return (
-    <div  >
+    <>
       <Navbar />
       <Bottom />
       <Features />
@@ -22,6 +22,6 @@ export default function Home() {
         <TestimonialCard />
         <Footer />
       </div>
-    </div>
+    </>
   );
 }

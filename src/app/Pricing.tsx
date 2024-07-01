@@ -44,7 +44,6 @@ const Pricing = () => {
                                     <p className='text-[#FFC059] font-bold text-[20px]'>$25.99/mo</p>
                                 </div>
                                 <p className='text-[#343D48]'>For the startup team who work with new come data stack</p>
-
                                 <div className='flex flex-col  gap-6'>
                                     <div className='flex flex-row gap-3 items-center'>
                                         <Image className='w-[20px] h-[20px] ' src={Tick} alt="" />
@@ -74,7 +73,6 @@ const Pricing = () => {
                                     <p className='text-[#FFC059] font-bold text-[20px]'>$49.99/mo</p>
                                 </div>
                                 <p className='text-[#343D48] '>For the Pro users who work with modern data stack</p>
-
                                 <div className='flex flex-col  gap-6'>
                                     <div className='flex flex-row gap-3 items-center'>
                                         <Image className='w-[20px] h-[20px] ' src={Tick} alt="" />
@@ -98,12 +96,8 @@ const Pricing = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </>
-
-
     )
 }
 export default Pricing;

@@ -15,10 +15,8 @@ const TestimonialCard = () => {
           <p className='text-[#858B91] md:text-[18px] text-[14px] underline'>Customer testimonial</p>
         </div>
         <div className='flex flex-col gap-4 xl:w-[1200px]   md:ml-[21px] ml-[21px]  mr-[21px] md:mr-[21px]'>
-
           <div>
             <div className='flex flex-col md:flex md:flex-row xl:justify-center lg:justify-center gap-3'>
-
               <div className='flex flex-col md:w-[380px] md:rounded-3xl rounded-3xl bg-white '>
                 <div className='flex flex-col gap-[20px] md:rounded-3xl rounded-3xl border-black shadow-2xl p-5'>
                   <p className='md:w-[330px]'>I would like to take this oppertunity to thank SA Places for the great service rendered to us and in particular Estelle. You got me the best place ever in just a few moments after I spoke to you.</p>
@@ -33,7 +31,7 @@ const TestimonialCard = () => {
               </div>
               <div className='flex flex-col md:w-[380px] md:rounded-3xl rounded-3xl  bg-white gap-3'>
                 <div className='flex flex-col gap-[20px] md:rounded-3xl rounded-3xl border-black shadow-xl p-5 '>
-                  <p className='md:w-[330px]'>I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you</p>
+                  <p className=' md:w-[330px]'>I would just like to compliment Estelle Pestana. She has been most professional and gone to great lengths to assist me. Her patience with me as I continuously changed my plans is to be commended. Her service re-affirms why I always choose to book through an agency instead of directly. Thank you</p>
                   <div className='flex flex-row gap-2'>
                     <Image src={Girl2} alt="" />
                     <div>
@@ -44,7 +42,6 @@ const TestimonialCard = () => {
                 </div>
               </div>
             </div>
-
           </div>
           <div>
             <div className='flex flex-col md:flex md:flex-row xl:justify-center lg:justify-center gap-3'>
@@ -73,7 +70,6 @@ const TestimonialCard = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
