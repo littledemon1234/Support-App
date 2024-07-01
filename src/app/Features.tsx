@@ -1,7 +1,4 @@
 import Image from "next/image";
-
-
-
 export default function Features() {
     return (
         <div className=" flex md:flex-row gap-5 ml-[19px] mr-[19px] md:ml-0 md:mr-0 flex-col xl:pl-40 xl:pr-44 md:pt-24">
