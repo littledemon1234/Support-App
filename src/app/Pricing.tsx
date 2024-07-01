@@ -37,13 +37,13 @@ const Pricing = () => {
                         <span className="text-black-600">Annual Plan</span>
                     </div>
                     <div className='flex flex-col md:pl-[21px] justify-center gap-[17px] md:flex md:flex-row '>
-                        <div className='bg-white ml-[15px] md:ml-0 mr-[15px] md:mr-0 items-center text-[#E0E2E4] shadow-xl border-[2px] border-transparent  rounded-tl-2xl rounded-br-2xl  h-[700px] p-0 md:p-[28px] md:w-[480px] md:h-[600px]'>
+                        <div className='bg-white ml-[15px] md:ml-0 mr-[15px] md:mr-0 items-center text-[#E0E2E4] shadow-xl border-[2px] rounded-2xl border-transparent  md:rounded-tl-2xl md:rounded-br-2xl  h-[639px]  md:p-[28px] md:w-[480px] p-[11px] md:h-[600px]'>
                             <div className='flex flex-col gap-8 md:ml-0 md:mt-0 mt-[10px] ml-[21px]'>
                                 <div>
                                     <h1 className='text-black font-bold text-[20px] md:pt-0 pt-6'>Startup Pack</h1>
                                     <p className='text-[#FFC059] font-bold text-[20px]'>$25.99/mo</p>
                                 </div>
-                                <p className='text-[#343D48]'>For the startup team who work with new come data stack</p>
+                                <p className='text-[#343D48]'>For the startup team who work with new come data</p>
                                 <div className='flex flex-col  gap-6'>
                                     <div className='flex flex-row gap-3 items-center'>
                                         <Image className='w-[20px] h-[20px] ' src={Tick} alt="" />
@@ -66,7 +66,7 @@ const Pricing = () => {
                             </div>
                         </div>
 
-                        <div className='bg-white md:mr-[21px] text-[#E0E2E4] shadow-xl border-[2px] border-transparent  rounded-tl-2xl rounded-br-2xl  ml-[15px] mr-[15px] h-[700px] p-0 md:p-[28px] md:w-[480px] md:h-[600px]'>
+                        <div className='bg-white md:mr-[21px] text-[#E0E2E4] shadow-xl border-[2px] border-transparent  md:rounded-tl-2xl md:rounded-br-2xl rounded-2xl  ml-[15px] mr-[15px] h-[639px]  md:p-[28px] p-[11px] md:w-[480px] md:h-[600px]'>
                             <div className='flex flex-col gap-8 pl-[21px] md:p-0 pt-[10px] md:pt-0'>
                                 <div>
                                     <h1 className='text-black font-bold md:text-[20px] text-[15px] pt-6 md:pt-0'>Premium Pack</h1>

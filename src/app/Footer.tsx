@@ -12,7 +12,7 @@ const footer = () => {
                     By subscribing with your mail, you will accept our privacy policy
                 </p>
                 <form className="mt-8 flex flex-row justify-center">
-                    <div className='flex md:flex-row flex-col gap-3'>
+                    <div className='flex md:flex-row items-center flex-col gap-3'>
                         <div className=''>
                             <input
                                 type="email"
@@ -23,7 +23,7 @@ const footer = () => {
 
                         <button
                             type="submit"
-                            className="bg-yellow-500   hover:bg-yellow-600 text-gray-800 font-semibold p-2 rounded-xl md:rounded-l-md"
+                            className="bg-yellow-500   hover:bg-yellow-600  w-[150px] md:w-auto text-gray-800 font-semibold p-2 rounded-xl md:rounded-l-md"
                         >
                             Subscribe us
                         </button>
