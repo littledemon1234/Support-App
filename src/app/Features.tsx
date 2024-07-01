@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Features() {
     return (
-        <div className=" flex md:flex-row gap-5 flex-col xl:pl-40 xl:pr-44 md:pt-24">
+        <div className=" flex md:flex-row gap-5 ml-[19px] mr-[19px] md:ml-0 md:mr-0 flex-col xl:pl-40 xl:pr-44 md:pt-24">
             <div className="drop-shadow-2xl flex gap-2 p-8 ">
                 <div className="mb-7 w-[160px] md:w-[150px] h-[50px] md:h-[70px] grid place-items-center bg-[#FFC059] rounded-3xl">
                     <Image src={"/Group 82.png"} alt="logo" width={25} height={20} />
